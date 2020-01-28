@@ -2753,6 +2753,13 @@ margin-top: auto!important;}
 }
 */
 
+@media only screen and (max-width: 990px) {.img-contact {display: none}}
+.img-contact{
+  position: absolute;
+max-width: 600px;
+right: 0;
+}
+
 @keyframes spin {
     0%, 15% {
     transform: rotate(0);
